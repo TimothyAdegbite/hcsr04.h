@@ -36,7 +36,7 @@ int main() {
  
 class HCSR04 {
   public:
-    HCSR04(D14, D15);
+    HCSR04 ultrasound(PinName t, PinName e);
     long echo_duration();
     long distance();
  
