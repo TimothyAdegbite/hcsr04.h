@@ -36,7 +36,7 @@ int main() {
  
 class HCSR04 {
   public:
-    HCSR04(PinName t, PinName e);
+    HCSR04(D14, D15);
     long echo_duration();
     long distance();
  
